@@ -5,7 +5,7 @@ import image from "./image.png"
 export default function Navbar() {
   return (
     <div className="nav">
-      <img src={image} />
+      <img src={image} alt="logo"/>
       <div className="ml-auto">
      <button className="bt">
        <Link to="/">Products</Link>
