@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 
-const API = "https://zeerostock-kqpl.onrender.com"
+const API = process.env.REACT_APP_API_URL;
 
 export default function AddSupplier() {
   const [data, setData] = useState({ name: "", city: "" })
