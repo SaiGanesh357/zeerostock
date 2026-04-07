@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 
-const API = "http://localhost:5000"
+const API = "https://zeerostock-kqpl.onrender.com"
 
 export default function Products() {
   const [data, setData] = useState([])
