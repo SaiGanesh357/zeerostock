@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* body {
+  font-family: Arial;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #00ffcc;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item {
+  background: rgba(0,0,0,0.3);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: Arial;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  background: black;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+input, select {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #00c6ff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.item {
+  padding: 10px;
+  background: #eee;
+  margin: 5px 0;
+} */
